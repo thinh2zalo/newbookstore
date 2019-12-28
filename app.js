@@ -102,4 +102,6 @@ app.use('/tim-voi-key', SearchController);
 
 app.use(handle404MDW);
 
-app.listen(3017);
+app.listen(4014, () => {
+    console.log("Server is running on port: " + 4014);
+});
